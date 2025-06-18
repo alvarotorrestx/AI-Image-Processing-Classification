@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 model = MobileNetV2(weights="imagenet")
 
 def classify_image(image_path):
-    """Classify an image and display the predictions."""
+    
     try:
         img = image.load_img(image_path, target_size=(224, 224))
         
