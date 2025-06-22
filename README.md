@@ -72,8 +72,6 @@ Noise Injection
 
 After applying three different occlusion methods on the Grad-CAM heatmap, the classifier’s performance dropped SIGNIFICANTLY. The top prediction changed from “Golden Retriever” to unrelated objects like “Spotlight” and “Electric Ray,” with much lower confidence scores.
 
-**Answer the following questions:**
-
 **Did the classifier struggle to classify the occluded images?**
 
 Yes, the classifier drasticly struggled once the Grad-CAM was occluded. In the original image, the model correctly predicted golden_retriever with 80% confidence. After applying each occlusion, the predictions came out with completely unrelated objects such as spotlight, electric_ray, and lampshade, with significantly lower confidence scores.
@@ -87,9 +85,6 @@ The noise injection had the greatest impact. Not only did the classifier fail to
 # Part 3: Creating and Experimenting with Image Filters
 
 ### Filter Addition
-**Explanation:**
 
-
-**Link:**
-
-[basic_filter.py](link goes here)
+- Batman Beyond Infrared Vision
+- Cyberpunk Glitch
