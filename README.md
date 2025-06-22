@@ -7,20 +7,24 @@ This project is designed to give you hands-on experience working with an image c
 
 
 ### Top 3 Predictions and Confidence Scores
--
--
--
+- golden_retriever (0.80)
+- Labrador_retriever (0.05)
+- Pembroke (0.01)
 
 **Screenshot:**
+
+![First predictions](image.png))
 
 
 ### Heatmap Analysis
 
-
 **Screenshot:**
 
+![Heatmap image](image-1.png)
 
 **Observation:**
+
+The classifier seems to be focusing mostly on my golden retriever’s head and face to help identify what the image is. The heatmap shows the hottest areas concentrated around her nose, eyes, ears, and the overall shape of her head.
 
 
 # Part 2: Experimenting with Image Occlusion

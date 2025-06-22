@@ -16,5 +16,5 @@ def apply_blur_filter(image_path):
         print(f"Error processing image: {e}")
 
 if __name__ == "__main__":
-    image_path = "batman_beyond_return_of_the_joker.jpg"
+    image_path = "kami.png"
     apply_blur_filter(image_path)
